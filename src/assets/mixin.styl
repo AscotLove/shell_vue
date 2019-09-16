@@ -1,0 +1,22 @@
+// 开启flex
+flexMixin($flow, $space)
+  display flex
+  flex-flow $flow
+  justify-content $space
+  flex 1
+  // 1px 线
+line-1px($color)
+  position relative
+  &:after
+    content ''
+    display block
+    width 100%
+    height 1px
+    background-color $color
+    position absolute
+    bottom 0
+    left 0
+    @media screen and (-webkit-device-pixel-ratio: 2)
+      transform scaleY(0.5)
+      @media screen and (-webkit-device-pixel-ratio: 3)
+        transform scaleY(0.333333333333333333)

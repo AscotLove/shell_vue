@@ -3,7 +3,7 @@ node_modules
 /dist
 
 .idea
-
+/resource
 # local env files
 .env.local
 .env.*.local
