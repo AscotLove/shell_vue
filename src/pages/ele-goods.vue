@@ -1,10 +1,15 @@
 <template>
-  <div>ele-goods</div>
+  <ul>
+    <li v-for="item in items" :key="item.name">{{item.name}}</li>
+  </ul>
 </template>
 
 <script>
   export default {
-    name: "ele-goods"
+    name: "ele-goods",
+    created: {
+
+    }
   }
 </script>
 

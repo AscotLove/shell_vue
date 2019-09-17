@@ -13,7 +13,7 @@
 <script>
 
 import '../public/css/style.css';
-import header from './components/ele-header/index';
+import header from './components/ele-header';
 export default {
   name: 'app',
   components: {

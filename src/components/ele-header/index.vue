@@ -1,6 +1,7 @@
 <template>
-  <div>头部</div>
-
+  <div id="ele-header">
+    <img src="" alt="">
+  </div>
 </template>
 
 <script>
@@ -13,6 +14,9 @@
   }
 </script>
 
-<style lang="stylus"  scoped>
-
+<style lang="stylus" rel="stylesheet/stylus" scoped>
+  @import "src/assets/mixin.styl";
+#ele-header
+  flexMixin(nowrap, space-around)
+  background-color rgba(7, 17, 27 ,.5)
 </style>
