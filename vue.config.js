@@ -6,10 +6,11 @@ function resolve(dir) {
 
 module.exports = {
   devServer: {
+    open:true,
     port: 7900,
     overlay: {
-      warnings: true,
-      errors: true
+      warnings: false,
+      errors: false
     },
   },
 

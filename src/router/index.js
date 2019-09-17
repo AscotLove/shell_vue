@@ -6,7 +6,8 @@ Vue.use(vueRouter);
 
 const router = new vueRouter({
   routes,
-  linkActiveClass: 'active'
+  linkActiveClass: 'active',
+
 })
 
 export default router;

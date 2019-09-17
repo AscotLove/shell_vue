@@ -1,6 +1,6 @@
-import goods from '@pages/ele-goods.vue';
-import ratings from '@pages/ele-ratings.vue';
-import seller from '@pages/ele-seller.vue';
+import goods from '@pages/ele-goods';
+import ratings from '@pages/ele-ratings';
+import seller from '@pages/ele-seller';
 
 export default [
   {
