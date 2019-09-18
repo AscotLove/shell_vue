@@ -17,6 +17,14 @@ line-1px($color)
     left 0
     @media screen and (-webkit-device-pixel-ratio: 2)
       transform scaleY(0.5)
-      @media screen and (-webkit-device-pixel-ratio: 3)
-        transform scaleY(0.333333333333333333)
+    @media screen and (-webkit-device-pixel-ratio: 3)
+      transform scaleY(0.333333333333333333)
+
+// 小图标
+icon-mixin($img)
+  background-size 100% 100%
+  @media screen and (-webkit-device-pixel-ratio: 2)
+    background-image url("./images/" + $img + "@2x.png")
+  @media screen and (-webkit-device-pixel-ratio: 3)
+    background-image url("./images/" + $img + "@3x.png")
 
